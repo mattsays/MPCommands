@@ -1,0 +1,33 @@
+[
+  {
+    "name": "test",
+    "rootCommand": {
+      "randomPicking": true,
+      "children": [
+        {
+          "command": "say hello test",
+          "children": [
+            {
+              "triggerChance": 20,
+              "command": "say hello test-1_0.2"
+            },
+            {
+              "triggerChance": 80,
+              "command": "say hello test-2_0.8"
+            }
+          ]
+        },
+        {
+          "triggerChance": 200,
+          "command": "say hello example",
+          "children": [
+            {
+              "triggerChance": 100,
+              "command": "say hello example-1_1.0"
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,6 @@
+name: MPCommands
+version: '${project.version}'
+main: com.minepunks.mpc.MPCommands
+authors: [ MattSaysMC ]
+commands:
+  mpc:
